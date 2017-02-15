@@ -21,32 +21,3 @@ class Node:
 
 	def __lt__(self, other):
 		return self.cost <= other.cost
-
-class Stack:
-     def __init__(self):
-         self.items = []
-
-     # I have changed method name isEmpty to is_empty
-     # because in your code you have used is_empty
-     def is_empty(self):
-         return self.items == []
-
-     def contains(self, value):
-     	for item in self.items:
-     	 	if(value==item):
-     	 		return True
-
-     	return False
-
-
-     def push(self, item):
-         self.items.append(item)
-
-     def pop(self):
-         return self.items.pop()
-
-     def peek(self):
-         return self.items[len(self.items)-1]
-
-     def size(self):
-         return len(self.items)
