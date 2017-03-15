@@ -1,8 +1,8 @@
-To used a version of python 2.7.X to compile. To run simply:
+Used a version of python 2.7.X to compile. To run simply:
 
 $ python GameManager.py
 
-This will run instance of the 2048-puzzle game played on a 4×4 grid, with numbered tiles that slide
+This will run instance of the 2048-puzzle game played on a 4Ã—4 grid, with numbered tiles that slide
 in all four directions when a player moves them. Every turn, a new tile will randomly appear
 in an empty spot on the board, with a value of either 2 or 4. Per the input direction given by
 the player, all tiles on the grid slide as far as possible in that direction, until they either (1)
