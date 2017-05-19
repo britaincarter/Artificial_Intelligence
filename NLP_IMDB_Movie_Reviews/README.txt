@@ -8,7 +8,7 @@ To run the script simply enter in your terminal (compiled in python 2):
 
 python driver.py
 
-The driver.py references the dataset with the assumption you have downloaded the dataset from the above URL and placed it one directory above the driver. 
+The driver.py references the dataset with the assumption you have downloaded the dataset from the above URL and placed it one directory above the driver. Also references a "stopwords.en.txt" a directory above which contains very common english words that are thrown out.
 
 I created two different data representations to increase accuracy of the predicted moview reviews, specifically using unigram/bigram data representation. Here is a helpful link on n-grams: https://en.wikipedia.org/wiki/N-gram
 
